@@ -90,7 +90,7 @@ const ProgramHighlights = () => {
       // So last bar finishes at 1200ms + 700ms = 1900ms, add small buffer
 setTimeout(() => {
   setShowLogo(true);
-}, (cardData.length * 200) + 1000 + 1000);
+}, (cardData.length * 500) + 500 + 500);
 
   });
   };
